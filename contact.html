@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:1" class="active">Home</a>
+            <a href="about.html" style="--i:2">About</a>
+            <a href="skills.html" style="--i:3">Skill</a>
+            <a href="https://drive.google.com/file/d/1EP0gbQGpeub7VQufHqBunLae53DJjkwj/view?usp=sharing"
+                style="--i:4">Resume</a>
+            <a href="contact.html" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+        
+
+    <section class="contact">
+        <div class="contact-header">
+          <h2 id="title">Contact Me</h2>
+          <h1 id="co-text">Reach out for a new project or to say hello</h1>
+        </div>
+        
+        <div class="contact-content">
+          <div class="contact-form">
+            <h3 id="form-title">Send me a message</h3>
+          <form action="http://localhost:3000/submit-form" method="post" enctype="text/plain">
+            <fieldset>
+              <div class="form-field">
+                <input name="name" type="text" id="name" placeholder="Your Name"></input>
+              </div>
+            <div class="form-field">
+                <input name="email" type="email" id="email" placeholder="Your Email"></input>
+              </div>
+            <div class="form-field">
+                <input name="Subject" type="text" id="subject" placeholder="Subject"></input>
+              </div>
+          <div class="form-field">
+                <textarea name="message" type="text" id="message" placeholder="Your Message"></textarea>
+              </div>
+            </fieldset>
+        <input id="form-btn" type="submit" value="send">
+          </form>
+      </div>
+        
+          <div class="contact-info">
+            <h3>Email Me At </h3>
+            <a href="mailto:rajsanuja@gmail.com"><p>rajsanuja@gmail.com</p></a>
+            <h3>Find Me On </h3>
+            <div class="contact-links">
+              <a href="https://www.facebook.com/profile.php?id=100007118914452"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/felicitous_one_/"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/sanju-raj-961246200/"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/sanjuraj9031"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+          </div>
+    </section>
+
+</body>
+
+</html>
